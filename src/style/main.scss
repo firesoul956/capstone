@@ -10,11 +10,11 @@
 }
 
 .gray {
-    background: #B3B3B3;
+    background: rgb(221, 183, 161);
 }
 
-.green {
-    background: #00CB79;
+.red {
+    background: rgb(203, 0, 0);
 }
 
 .home {
@@ -55,7 +55,7 @@
         position: absolute;
         height: 110vh;
         width: 100vw;
-        background-color: #00CB79;
+        background-color: rgb(203, 30, 0);
     }
 
     h1 {
@@ -110,14 +110,14 @@
     }
 
     &__generate {
-        background-color: #00CB79;
+        background-color: rgb(203, 41, 0);
         transform: translateY(-300px);
         @include button;
     }
 
     &__clear {
         transform: translateY(50%);
-        background-color: #45B0E5;
+        background-color: rgb(229, 160, 69);
         @include button;
     }
 

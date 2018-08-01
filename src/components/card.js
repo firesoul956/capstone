@@ -3,23 +3,29 @@ import React, { Component } from 'react';
 import Input from './input';
 import Content from './content';
 
+
+
+
 const INITIAL_STATE = {
-    color: '',
-    pluralNoun: '',
-    adjectiveOne: '',
-    celebOne: '',
-    adjectiveTwo: '',
-    nounOne: '',
-    numberOne: '',
-    numberTwo: '',
-    nounTwo: '',
-    adjectiveThree: '',
-    celebTwo: '',
-    celebThree: '',
-    adjectiveFour: '',
-    nounThree: '',
-    celebFour: '',
-    adjectiveFive: '',
+    king: '',
+    judge: '',
+    ledeade: '',
+    song: '',
+    balled: '',
+    phantom: '',
+    force: '',
+    storm: '',
+    terra: '',
+    truth: '',
+    dawn: '',
+    dusk: '',
+    royal: '',
+    guard: '',
+    north: '',
+    pride: '',
+    stream: '',
+    sun: '',
+    aether: '',
     contentVisible: false
 }
 
@@ -51,25 +57,29 @@ class Card extends Component {
     render() {
 
         const inputData = [
-            {title: 'Color', state: this.state.color, name: 'color'},
-            {title: 'Plural Noun', state: this.state.pluralNoun, name: 'pluralNoun'},
-            {title: 'Adjective', state: this.state.adjectiveOne, name: 'adjectiveOne'},
-            {title: 'Celebrity', state: this.state.celebOne, name: 'celebOne'},
+            {title: 'king', state: this.state.king, name: 'king'},
+            {title: 'judge', state: this.state.judg, name: 'judge'},
+            {title: 'ledeade', state: this.state.ledeade, name: 'ledeade'},
+            {title: 'song', state: this.state.song, name: 'song'},
 
-            {title: 'Adjective', state: this.state.adjectiveTwo, name: 'adjectiveTwo'},
-            {title: 'Noun', state: this.state.nounOne, name: 'nounOne'},
-            {title: 'Number', state: this.state.numberOne, name: 'numberOne'},
-            {title: 'Number', state: this.state.numberTwo, name: 'numberTwo'},
+            {title: 'balled', state: this.state.balled, name: 'balled'},
+            {title: 'phantom', state: this.state.phantom, name: 'phantom'},
+            {title: 'force', state: this.state.force, name: 'force'},
+            {title: 'storm', state: this.state.storm, name: 'storm'},
 
-            {title: 'Noun', state: this.state.nounTwo, name: 'nounTwo'},
-            {title: 'Adjective', state: this.state.adjectiveThree, name: 'adjectiveThree'},
-            {title: 'Celebrity', state: this.state.celebTwo, name: 'celebTwo'},
-            {title: 'Celebrity', state: this.state.celebThree, name: 'celebThree'},
+            {title: 'terra', state: this.state.terra, name: 'terra'},
+            {title: 'truth', state: this.state.truth, name: 'truth'},
+            {title: 'dawn', state: this.state.dawn, name: 'dawn'},
+            {title: 'dusk', state: this.state.dusk, name: 'dusk'},
 
-            {title: 'Adjective', state: this.state.adjectiveFour, name: 'adjectiveFour'},
-            {title: 'Noun', state: this.state.nounThree, name: 'nounThree'},
-            {title: 'Celebrity', state: this.state.celebFour, name: 'celebFour'},
-            {title: 'Adjective', state: this.state.adjectiveFive, name: 'adjectiveFive'},
+            {title: 'royal', state: this.state.royal, name: 'royal'},
+            {title: 'guard', state: this.state.guard, name: 'guard'},
+            {title: 'north', state: this.state.north, name: 'north'},
+            {title: 'pride', state: this.state.pride, name: 'pride'},
+
+            {title: 'stream', state: this.state.stream, name: 'stream'},
+            {title: 'sun', state: this.state.sun, name: 'sun'},
+            {title: 'aether', state: this.state.aether, name: 'aether'},
         ]
 
         return (
@@ -81,7 +91,7 @@ class Card extends Component {
                     })
                 }
                 </div>
-                <button className={`card__${!this.state.contentVisible ? 'generate' : 'clear'}`} type="submit">{!this.state.contentVisible ? 'Generate Mad Lib' : 'Clear Form'}</button>
+                <button className={`card__${!this.state.contentVisible ? 'generate' : 'clear'}`} type="submit">{!this.state.contentVisible ? 'Find our lineage' : 'Clear Form'}</button>
                 {
                     this.state.contentVisible ? <Content data={this.state}/> : ''
                 }

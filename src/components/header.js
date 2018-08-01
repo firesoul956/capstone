@@ -5,8 +5,8 @@ const Header = () => {
         <div className="header">
             <div className="header__skew"></div>
             <div className="header__border"></div>
-            <h1>Bottega Madlibs</h1>
-            <p>Fill out the fields below and click the generate button to see the Mad Lib story.</p>
+            <h1>The legend wars:</h1>
+            <p>Fill out the fields below with what names you and your friends attract to the most to find your legacy line and your element</p>
         </div>
     )
 }

@@ -28,7 +28,25 @@ class Content extends Component {
         return (
             <div className="card__content">
                 <p>
-                    Ladies and gentlemen, this is {this.renderLabel(data.color)} Barber, your sportscaster, bringing you the last inning of the game between the Cleveland {this.renderLabel(data.pluralNoun)} and the {this.renderLabel(data.adjectiveOne)} Yankees. {this.renderLabel(data.celebOne)} is pitching for the Yankees. Here's the pitch! It's a low {this.renderLabel(data.adjectiveTwo)} ball that just cuts the inside of the {this.renderLabel(data.nounOne)} for a strike. That makes the count {this.renderLabel(data.numberOne)} strikes and {this.renderLabel(data.numberTwo)} balls. Now here's the next pitch. The batter swings and connects. It's a long, high {this.renderLabel(data.nounTwo)} out to {this.renderLabel(data.adjectiveThree)} field. But {this.renderLabel(data.celebTwo)} is coming up fast and has it for the second out. The next batter up is {this.renderLabel(data.celebThree)}, the Cleveland {this.renderLabel(data.adjectiveFour)}-stop. Here's the pitch... and it's hit... a short ground ball to third {this.renderLabel(data.nounThree)}. {this.renderLabel(data.celebFour)} scoops it up and throws it to first base for an out, and the game is over. And the Yankees move into second place in the {this.renderLabel(data.adjectiveFive)} League!  
+                    the lineage of the legends: {this.renderLabel(data.king)} king has illusions,  
+                    {this.renderLabel(data.judge)} judge has time, 
+                    {this.renderLabel(data.ledeade)} le deade has necromancy, 
+                    {this.renderLabel(data.song)} song has life, 
+                    {this.renderLabel(data.balled)} Balled has sound, 
+                    {this.renderLabel(data.phantom)} phantom has dreams, 
+                    {this.renderLabel(data.force)} force has space, 
+                    {this.renderLabel(data.storm)} storm has air,
+                    {this.renderLabel(data.terra)} terra has earth, 
+                    {this.renderLabel(data.truth)} truth has reflections, 
+                    {this.renderLabel(data.dawn)} dawn is light, 
+                    {this.renderLabel(data.dusk)} dusk is darkness, 
+                    {this.renderLabel(data.royal)} Royal is magnetism, 
+                    {this.renderLabel(data.guard)} guard is gravity, 
+                    {this.renderLabel(data.north)} north has ice, 
+                    {this.renderLabel(data.pride)} pride has decay,
+                    {this.renderLabel(data.stream)} stream has water,
+                    {this.renderLabel(data.sun)} sun has fire,
+                    {this.renderLabel(data.aether)} aether has lightining
                 </p>
             </div>
         )
