@@ -25,6 +25,7 @@ const INITIAL_STATE = {
     pride: '',
     stream: '',
     sun: '',
+    mech: '',
     aether: '',
     contentVisible: false
 }
@@ -58,7 +59,7 @@ class Card extends Component {
 
         const inputData = [
             {title: 'king', state: this.state.king, name: 'king'},
-            {title: 'judge', state: this.state.judg, name: 'judge'},
+            {title: 'judge', state: this.state.judge, name: 'judge'},
             {title: 'ledeade', state: this.state.ledeade, name: 'ledeade'},
             {title: 'song', state: this.state.song, name: 'song'},
 
@@ -79,6 +80,7 @@ class Card extends Component {
 
             {title: 'stream', state: this.state.stream, name: 'stream'},
             {title: 'sun', state: this.state.sun, name: 'sun'},
+            {title: 'mech', state: this.state.mech, name: 'mech'},
             {title: 'aether', state: this.state.aether, name: 'aether'},
         ]
 
