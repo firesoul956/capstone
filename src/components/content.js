@@ -28,26 +28,26 @@ class Content extends Component {
         return (
             <div className="card__content">
                 <p>
-                    the magic of the legends: {this.renderLabel(data.king)} King has illusions,  
-                    {this.renderLabel(data.judge)} Judge has time, 
-                    {this.renderLabel(data.ledeade)} Le Deade has necromancy, 
-                    {this.renderLabel(data.song)} Song has life, 
-                    {this.renderLabel(data.balled)} Balled has sound, 
-                    {this.renderLabel(data.phantom)} Phantom has dreams, 
-                    {this.renderLabel(data.force)} Force has space, 
-                    {this.renderLabel(data.storm)} Storm has air,
-                    {this.renderLabel(data.terra)} Terra has earth, 
-                    {this.renderLabel(data.truth)} Truth has reflections, 
-                    {this.renderLabel(data.dawn)} Dawn is light, 
-                    {this.renderLabel(data.dusk)} Dusk is darkness, 
-                    {this.renderLabel(data.royal)} Royal is magnetism, 
-                    {this.renderLabel(data.guard)} Guard is gravity, 
-                    {this.renderLabel(data.north)} North has ice, 
-                    {this.renderLabel(data.pride)} Pride has decay,
-                    {this.renderLabel(data.stream)} Stream has water,
-                    {this.renderLabel(data.sun)} Sun has fire,
-                    {this.renderLabel(data.mech)} Mech is technology,
-                    {this.renderLabel(data.aether)} Aether has lightining
+                    the magic of the legends: {this.renderLabel(data.King)} King has illusions,  
+                    {this.renderLabel(data.Judge)} Judge has time, 
+                    {this.renderLabel(data.Le_Deade)} Le Deade has necromancy, 
+                    {this.renderLabel(data.Song)} Song has life, 
+                    {this.renderLabel(data.Balled)} Balled has sound, 
+                    {this.renderLabel(data.Phantom)} Phantom has dreams, 
+                    {this.renderLabel(data.Force)} Force has space, 
+                    {this.renderLabel(data.Storm)} Storm has air,
+                    {this.renderLabel(data.Terra)} Terra has earth, 
+                    {this.renderLabel(data.Truth)} Truth has reflections, 
+                    {this.renderLabel(data.Dawn)} Dawn is light, 
+                    {this.renderLabel(data.Dusk)} Dusk is darkness, 
+                    {this.renderLabel(data.Royal)} Royal is magnetism, 
+                    {this.renderLabel(data.Guard)} Guard is gravity, 
+                    {this.renderLabel(data.North)} North has ice, 
+                    {this.renderLabel(data.Pride)} Pride has decay,
+                    {this.renderLabel(data.Stream)} Stream has water,
+                    {this.renderLabel(data.Sun)} Sun has fire,
+                    {this.renderLabel(data.Mech)} Mech is technology,
+                    {this.renderLabel(data.Aether)} Aether has lightining
                 </p>
             </div>
         )
