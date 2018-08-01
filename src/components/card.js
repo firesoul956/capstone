@@ -7,26 +7,26 @@ import Content from './content';
 
 
 const INITIAL_STATE = {
-    King: '',
-    Judge: '',
-    Le_Deade: '',
-    Song: '',
-    Balled: '',
-    Phantom: '',
-    Force: '',
-    Storm: '',
-    Terra: '',
-    Truth: '',
-    Dawn: '',
-    Dusk: '',
-    Royal: '',
-    Guard: '',
-    North: '',
-    Pride: '',
-    Stream: '',
-    Sun: '',
-    Mech: '',
-    Aether: '',
+    //King: '',
+    //Judge: '',
+    //Le_Deade: '',
+    //Song: '',
+    //Balled: '',
+    //Phantom: '',
+    //Force: '',
+    //Storm: '',
+    //Terra: '',
+    //Truth: '',
+    //Dawn: '',
+    //Dusk: '',
+    //Royal: '',
+    //Guard: '',
+    //North: '',
+    //Pride: '',
+    //Stream: '',
+    //Sun: '',
+    //Mech: '',
+    //Aether: '',
     contentVisible: false
 }
 
@@ -58,7 +58,7 @@ class Card extends Component {
     render() {
 
         const inputData = [
-            {title: 'King', state: this.state.King, name: 'King'},
+           /* {title: 'King', state: this.state.King, name: 'King'},
             {title: 'Judge', state: this.state.Judge, name: 'Judge'},
             {title: 'Le_Deade', state: this.state.Le_Deade, name: 'Le_Deade'},
             {title: 'Song', state: this.state.Song, name: 'Song'},
@@ -81,7 +81,7 @@ class Card extends Component {
             {title: 'Stream', state: this.state.Stream, name: 'Stream'},
             {title: 'Sun', state: this.state.Sun, name: 'Sun'},
             {title: 'Mech', state: this.state.Mech, name: 'Mech'},
-            {title: 'Aether', state: this.state.Aether, name: 'Aether'},
+            {title: 'Aether', state: this.state.Aether, name: 'Aether'},*/
         ]
 
         return (
