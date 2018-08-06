@@ -36,7 +36,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'judge') {
+        if (data.legends == 'judge') {
 
             return (
                 <div className="card__content">
@@ -47,7 +47,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'le deade') {
+        if (data.legends == 'le deade') {
 
             return (
                 <div className="card__content">
@@ -58,7 +58,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'song') {
+        if (data.legends == 'song') {
 
             return (
                 <div className="card__content">
@@ -71,7 +71,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'balled') {
+        if (data.legends == 'balled') {
 
             return (
                 <div className="card__content">
@@ -82,7 +82,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'phantom') {
+        if (data.legends == 'phantom') {
 
             return (
                 <div className="card__content">
@@ -93,7 +93,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'force') {
+        if (data.legends == 'force') {
 
             return (
                 <div className="card__content">
@@ -104,7 +104,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'storm') {
+        if (data.legends == 'storm') {
 
             return (
                 <div className="card__content">
@@ -115,7 +115,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'terra') {
+        if (data.legends == 'terra') {
 
             return (
                 <div className="card__content">
@@ -128,7 +128,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'truth') {
+        if (data.legends == 'truth') {
 
             return (
                 <div className="card__content">
@@ -140,7 +140,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'dawn') {
+        if (data.legends == 'dawn') {
 
             return (
                 <div className="card__content">
@@ -153,7 +153,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'dusk') {
+        if (data.legends == 'dusk') {
 
             return (
                 <div className="card__content">
@@ -166,7 +166,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'royal') {
+        if (data.legends == 'royal') {
 
             return (
                 <div className="card__content">
@@ -178,7 +178,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'guard') {
+        if (data.legends == 'guard') {
 
             return (
                 <div className="card__content">
@@ -189,7 +189,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'north') {
+        if (data.legends == 'north') {
 
             return (
                 <div className="card__content">
@@ -202,7 +202,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'pride') {
+        if (data.legends == 'pride') {
 
             return (
                 <div className="card__content">
@@ -213,7 +213,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'stream') {
+        if (data.legends == 'stream') {
 
             return (
                 <div className="card__content">
@@ -225,7 +225,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'sun') {
+        if (data.legends == 'sun') {
 
             return (
                 <div className="card__content">
@@ -237,7 +237,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'mech') {
+        if (data.legends == 'mech') {
 
             return (
                 <div className="card__content">
@@ -249,7 +249,7 @@ class Content extends Component {
                 </div>
             )
         }
-        if (data.legend == 'aether') {
+        if (data.legends == 'aether') {
 
             return (
                 <div className="card__content">
