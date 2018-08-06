@@ -25,32 +25,248 @@ class Content extends Component {
         //     console.log(index);
         // })
         // <span>{data.indexOf(data.color)}</span>
-        return (
-            <div className="card__content">
-                <p>
-                    the magic of the legends: {this.renderLabel(data.King)} King has illusions,  
-                    {this.renderLabel(data.Judge)} Judge has time, 
-                    {this.renderLabel(data.Le_Deade)} Le Deade has necromancy, 
-                    {this.renderLabel(data.Song)} Song has life, 
-                    {this.renderLabel(data.Balled)} Balled has sound, 
-                    {this.renderLabel(data.Phantom)} Phantom has dreams, 
-                    {this.renderLabel(data.Force)} Force has space, 
-                    {this.renderLabel(data.Storm)} Storm has air,
-                    {this.renderLabel(data.Terra)} Terra has earth, 
-                    {this.renderLabel(data.Truth)} Truth has reflections, 
-                    {this.renderLabel(data.Dawn)} Dawn is light, 
-                    {this.renderLabel(data.Dusk)} Dusk is darkness, 
-                    {this.renderLabel(data.Royal)} Royal is magnetism, 
-                    {this.renderLabel(data.Guard)} Guard is gravity, 
-                    {this.renderLabel(data.North)} North has ice, 
-                    {this.renderLabel(data.Pride)} Pride has decay,
-                    {this.renderLabel(data.Stream)} Stream has water,
-                    {this.renderLabel(data.Sun)} Sun has fire,
-                    {this.renderLabel(data.Mech)} Mech is technology,
-                    {this.renderLabel(data.Aether)} Aether has lightining
+        if (data.legends == 'king') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                        King has illusions
                 </p>
-            </div>
-        )
+                </div>
+            )
+        }
+        if (data.legend == 'judge') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                        Judge has time
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'le deade') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                         Le Deade has necromancy
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'song') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+    
+                        Song has life
+    
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'balled') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                         Balled has sound
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'phantom') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                         Phantom has dreams
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'force') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                         Force has space
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'storm') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                        Storm has air
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'terra') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+    
+                       Terra has earth,
+    
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'truth') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+    
+                       Truth has reflections,
+                    </p>
+                </div>
+            )
+        }
+        if (data.legend == 'dawn') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+    
+                       Dawn is light,
+    
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'dusk') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+    
+                        Dusk is darkness,
+    
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'royal') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                       Royal is magnetism,
+    
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'guard') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                        Guard is gravity,
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'north') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+    
+                        North has ice,
+    
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'pride') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                        Pride has decay,
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'stream') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                        Stream has water,
+    
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'sun') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                        Sun has fire,
+    
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'mech') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                        Mech is technology,
+    
+                </p>
+                </div>
+            )
+        }
+        if (data.legend == 'aether') {
+
+            return (
+                <div className="card__content">
+                    <p>
+                        the magic of the legends:
+                         Aether has lightining
+                </p>
+                </div>
+            )
+        }
+        return (
+			<div className="card__content">
+				<p>
+					that is no magical line asscociated with that name
+				</p>
+			</div>
+		)
     }
 }
 

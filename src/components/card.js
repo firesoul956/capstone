@@ -7,6 +7,7 @@ import Content from './content';
 
 
 const INITIAL_STATE = {
+    legends: '',
     //King: '',
     //Judge: '',
     //Le_Deade: '',
@@ -58,6 +59,7 @@ class Card extends Component {
     render() {
 
         const inputData = [
+            {title: 'legends', state: this.state.legends, name: 'legends'}
            /* {title: 'King', state: this.state.King, name: 'King'},
             {title: 'Judge', state: this.state.Judge, name: 'Judge'},
             {title: 'Le_Deade', state: this.state.Le_Deade, name: 'Le_Deade'},
