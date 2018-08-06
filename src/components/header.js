@@ -5,8 +5,11 @@ const Header = () => {
         <div className="header">
             <div className="header__skew"></div>
             <div className="header__border"></div>
-            <h1>The legend wars:</h1>
-            <p>Fill out the fields below with what names you and your friends attract to the most to find your legacy line and your element</p>
+
+            <h1>The Legend Wars:</h1>
+
+            <p>Use this form to find out about the 20 major clans of the magi legendarius.</p>
+            <p>the names are king, judge, le deade, song, balled, phantom, force, storm, terra, truth, dawn, dusk, royal, guard, north, pride, stream, sun, mech, and finally aether</p>
         </div>
     )
 }

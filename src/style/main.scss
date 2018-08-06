@@ -33,6 +33,10 @@
     font-family: 'Montserrat';
     text-align: center;
     align-self: center;
+    &__image{
+        float:left;
+        
+    }
     &__skew {
         -webkit-clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 50%);
         clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 50%);
